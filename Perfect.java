@@ -12,7 +12,7 @@ class Perfect {
             if( x % d == 0)
             {
                 counter += d;
-                S += "+" + String.valueOf(d);
+                S += " + " + String.valueOf(d);
             }
             d++;
         }
