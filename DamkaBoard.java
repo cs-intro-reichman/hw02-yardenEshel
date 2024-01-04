@@ -11,8 +11,18 @@ class DamkaBoard {
             {
                 damkaBoard += "* ";
             }
-            damkaBoard+= newLine;
-            if(i%2 == 0){damkaBoard+= " ";}
+
+            if(i%2 == 0)
+            {
+                damkaBoard+= newLine;
+                damkaBoard+= " ";
+            }
+            else
+            {
+                damkaBoard = damkaBoard.substring(0, damkaBoard.length()-1);
+                damkaBoard+= newLine;
+            }
+
         }
         System.out.print(damkaBoard);
     }
