@@ -2,7 +2,7 @@ import java.util.Random;
 class OneOfEachStats {
     public static void main(String args[])
     {
-
+        System.out.println(args[1]);
         int families = Integer.parseInt(args[0]);// values above 1 - girl, else boy
         int twoChildren = 0;
         int threeChildren = 0;
@@ -12,6 +12,7 @@ class OneOfEachStats {
         String biggestGroup = " 4 or more";
         for(int i = 0; i < families ; i++)
         {
+
             tempo = familyBuild(Integer.parseInt(args[1]));
 
             average += tempo;
