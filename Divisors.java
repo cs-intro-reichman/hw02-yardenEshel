@@ -10,7 +10,7 @@ class Divisors {
 
             if( x % d == 0)
             {
-                System.out.println(d + "\n");
+                System.out.println(d);
             }
             d++;
         }
